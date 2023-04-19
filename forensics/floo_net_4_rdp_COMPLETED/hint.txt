@@ -1,0 +1,3 @@
+
+* filter packets with "tcp.port == 3389" to see only rdp packets
+* Follow tcp stream, read the output text and you'll find the flag

@@ -1,0 +1,8 @@
+
+
+* using `file` command, we find that this is a "Targa Image File"
+* Using `binwalk` to extract what it inside the file
+
+`binwalk -e -D=".*" data2`
+
+* Opening the image we the flag inside it

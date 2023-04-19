@@ -1,0 +1,11 @@
+
+* To solve this you'll need to do it by hand, finding each character one by one
+* The hard approch is to go from top to bottom
+* The easiest way is to start from bottom to top
+* Start from the print statement that tells you that you get the flag, this way you'll get the flag, as fast as possible
+* Start from here
+
+
+```
+print('Good job! You got the flag! 🚩')
+```

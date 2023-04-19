@@ -1,0 +1,10 @@
+
+* Knowing that the machine name starts with "Win"
+* I used strings along with grep to find it
+
+`strings iddump.raw | grep -iE "win.*" `
+
+* Read throught the output, and you'll get the answer
+* Answer: WIN-L4MS4O864C1
+
+* flag: FLAG{WIN-L4MS4O864C1}

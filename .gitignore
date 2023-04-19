@@ -1,0 +1,19 @@
+
+
+# Ghidra project files
+
+*.rep
+*.gpr
+
+# GDB files
+
+.gdb*
+
+# Memory Dump files
+
+iddump2*
+
+# Raw/Binary files
+
+*.raw
+*.bin

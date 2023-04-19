@@ -1,0 +1,28 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sun Apr 16 22:19:08 2023
+Invocation: foremost -i iddump2.raw -t jpeg -o output_directory 
+Output directory: /home/iota/ctf/ctf101/forensics/memory_dump3/output_directory
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: iddump2.raw
+Start: Sun Apr 16 22:19:08 2023
+Length: 448 MB (469762048 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00571808.jpg 	      650 B 	  292765817 	 
+1:	00806516.jpg 	      650 B 	  412936399 	 
+2:	00827881.jpg 	     101 KB 	  423875530 	 
+3:	00871656.jpg 	      26 KB 	  446287872 	 
+4:	00871744.jpg 	       7 KB 	  446332928 	 
+5:	00871816.jpg 	      11 KB 	  446369792 	 
+Finish: Sun Apr 16 22:19:09 2023
+
+6 FILES EXTRACTED
+	
+jpg:= 6
+------------------------------------------------------------------
+
+Foremost finished at Sun Apr 16 22:19:09 2023

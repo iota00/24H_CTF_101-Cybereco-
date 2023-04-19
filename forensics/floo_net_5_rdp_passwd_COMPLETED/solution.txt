@@ -1,0 +1,6 @@
+
+* Use ssl_key.log founded when you extract the secret.zip file
+* Go to Edit > Preference > Protocols > TLS
+* Then When the traffic is decrypted, look for client info packet
+
+* flag: flag-thisIsThePasswordFor2022

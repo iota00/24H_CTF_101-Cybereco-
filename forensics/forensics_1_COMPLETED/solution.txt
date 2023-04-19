@@ -1,0 +1,9 @@
+
+
+* Based on the information you provided, here are the answers to your questions:
+
+   * The original file extension is wav.
+   * The date of the last modification of the file is 2016-01-24.
+   * The average number of bytes of information per second for the file is 176400.
+
+* Therefore, the flag is: FLAG{wav_2016-01-24_176400}.

