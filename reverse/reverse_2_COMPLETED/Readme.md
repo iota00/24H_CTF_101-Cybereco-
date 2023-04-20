@@ -70,8 +70,19 @@ undefined8 main(int param_1,long param_2)
   while( true ) {
     if (0x25 < j) {
       fclose(img);
-      png_destroy_read_struct(&read_struct,&info_struct
-
+      png_destroy_read_struct(&read_struct,&info_struct,0);
+            puts("Your flag is correct!");
+            return 0;
+          }
+          local_39 = *(byte *)((long)(j << 2) + h_left_shift_with_3[1]) ^
+                     *(byte *)((long)(j << 2) + *h_left_shift_with_3);
+          if (local_39 != *(byte *)((long)j + *(long *)(param_2 + 8))) break;
+          j = j + 1;
+        }
+        puts("Wrong flag...");
+                          /* WARNING: Subroutine does not return */
+        exit(1);
+      }
 ```
 
 * The given C code checks for the flag in the image file image.png. The program checks for two things:
