@@ -1,6 +1,0 @@
-
-* Use Strings, and read the output carefully
-* You'll see a line that contain 'Congratulation', and right above it you see a line that indecate that the program is some how uses base64
-* Now if you between those two lines, there are 2 other lines, one contains the word "PASSWORD", and the other one have a long string
-* Decoding the long string using `base64 -d`, we get the flag 
-FLAG{H1DD3N_1N_PL41N_S1GHT}
